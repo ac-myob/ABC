@@ -1,0 +1,15 @@
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/bin/Debug/net6.0/ABC
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/bin/Debug/net6.0/ABC.deps.json
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/bin/Debug/net6.0/ABC.runtimeconfig.json
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/bin/Debug/net6.0/ABC.dll
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/bin/Debug/net6.0/ABC.pdb
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.csproj.AssemblyReference.cache
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.AssemblyInfoInputs.cache
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.AssemblyInfo.cs
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.csproj.CoreCompileInputs.cache
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.dll
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/refint/ABC.dll
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.pdb
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ABC.genruntimeconfig.cache
+/Users/Andrew.Christabel/Desktop/Projects/Phase 1/Katas/ABC/obj/Debug/net6.0/ref/ABC.dll
