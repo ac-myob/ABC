@@ -6,26 +6,30 @@ using System.Diagnostics;
 namespace ABC
 {
     class ABCSolver {
-        private int[] sideFlag;
+        // 1 = used, 0 = not used
+        private int[] cubesUsed;
         private string word;
-        private List<Cube> cubes;
+        private List<Cube> listOfCubes;
+
         public ABCSolver(string word, string sides1, string sides2) {
             this.word = word;
-            this.cubes = new List<Cube>();
+            this.listOfCubes = new List<Cube>();
             addCubes(sides1, sides2);
-            sideFlag = new int[cubes.Count];
+            cubesUsed = new int[listOfCubes.Count];
         }
+
         private void addCubes(string sides1, string sides2) {
             Debug.Assert(sides1.Length == sides2.Length, "Mismatch cube sizes");
             for (int i = 0; i < sides1.Length; ++i) {
-                cubes.Add(new Cube(sides1[i], sides2[i]));
+                listOfCubes.Add(new Cube(sides1[i], sides2[i]));
             }
         }
-        private void generateWordMapping1() {
+
+        private void selectCubesToCreateWord() {
             foreach (char c in word) {
-                for (int cubeIdx = 0; cubeIdx < cubes.Count; ++cubeIdx) {
-                    if (cubes[cubeIdx].check(c) && sideFlag[cubeIdx] != 1) {
-                        sideFlag[cubeIdx] = 1;
+                for (int cubeIdx = 0; cubeIdx < listOfCubes.Count; ++cubeIdx) {
+                    if (listOfCubes[cubeIdx].cubeHasChar(c) && cubesUsed[cubeIdx] != 1) {
+                        cubesUsed[cubeIdx] = 1;
                         break;
                     }
                 }
@@ -38,9 +42,10 @@ namespace ABC
             }
             Console.Write("\n");
         }
+
         public bool solve() {
-            generateWordMapping1();
-            return sideFlag.Sum() == this.word.Length;
+            selectCubesToCreateWord();
+            return cubesUsed.Sum() == this.word.Length;
         }
     }
 }

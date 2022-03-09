@@ -7,11 +7,11 @@ namespace ABC {
             this.Side1 = side1;
             this.Side2 = side2;
         }
-        public bool check(char inputChar) {
+        public bool cubeHasChar(char inputChar) {
             return inputChar == this.Side1 || inputChar == this.Side2;
         }
 
-        public void show() {
+        public void showCubeSides() {
             Console.WriteLine($"({this.Side1} {this.Side2})");
         }
     }
